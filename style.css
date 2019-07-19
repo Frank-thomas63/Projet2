@@ -8,6 +8,10 @@ p{
 }
 h1{
   font-family: 'Playfair Display', serif;
+  position: absolute;
+  bottom: 20%;
+  left:
+  color: white;
 }
 h2{
   font-family: 'Playfair Display', serif;
@@ -30,7 +34,11 @@ h5{
 /*HEADER ALEXIS*/
 
 .imgtop {
- width: 100px;
+  width: 100%;
+}
+
+.logotop {
+
 }
 
 /*SECTION 1 ALEXIS*/
