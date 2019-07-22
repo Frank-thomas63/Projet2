@@ -34,10 +34,13 @@ h5{
 article{
   width: 50%;
   padding: 20px;
-  border: 1px solid black;
-  float: left;
-}
+  margin: 0px;
 
+}
+section{
+  display: inline;
+
+}
 
 /*HEADER ALEXIS*/
 
@@ -80,20 +83,33 @@ article{
 
 /*SECTION 3 FRANK*/
 .blocb{
-  width: 40%;
-  float: right;
-  border: solid 1px black;
+
+  width: 50%;
+  right: auto;
+
+
 }
 .imgb{
-  float: right;
-  width: 50%;
-  border: solid 1px black;
-
 
 }
-/*SECTION 4 FRANK*/
+.emotion{
+  width: 250px;
+  height: auto;
+  border: 0px;
 
-.imgform {
+}
+.emotion:hover{
+  opacity: 0.7;
+}
+.blocEmo{
+  background-color: green;
+  display: flex;
+}
+/*SECTION 4 FRANK*/
+.test {border: 1px solid black;}
+.imgbot{
+  background-image: image(img/imgbot.jpg);
+  background-size: cover;
 
 }
 
