@@ -69,7 +69,8 @@ section{
 .emotion{
   width: 250px;
   height: auto;
-  border: 0px;
+  bor der: 0px;
+  margin: 0px;
 
 }
 .emotion:hover{
