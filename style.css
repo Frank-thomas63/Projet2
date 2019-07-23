@@ -8,13 +8,14 @@ p{
 }
 h1{
   font-family: 'Playfair Display', serif;
-
-  bottom: 20%;
-  left:
   color: white;
+  font-size: 3vw;
+  width: 100%;
 }
 h2{
   font-family: 'Playfair Display', serif;
+  font-size: 6vw;
+  color: white;
 }
 h3{
   font-family: 'Playfair Display', serif;
@@ -48,8 +49,33 @@ section{
 }
 
 .logotop {
-
+  width: 7%;
+  margin-left: 46%;
+  position: absolute;
 }
+
+.container {
+  position: relative;
+}
+
+
+.centrer h1 {
+  position: absolute;
+  top: 64%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.centrer h2 {
+  position: absolute;
+  top: 46%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  line-height: 100%;
+}
+
 
 /*SECTION 1 ALEXIS*/
 
