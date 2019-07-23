@@ -18,6 +18,7 @@ h2{
   color: white;
 }
 h3{
+  font-size: 30px;
   font-family: 'Playfair Display', serif;
 }
 h4{
@@ -28,9 +29,14 @@ h4{
 h5{
   font-family: 'Playfair Display', serif;
   font-size: 10px;
-
   margin-top: -50px;
 }
+
+h6{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
 article{
   width: 50%;
   padding: 20px;
@@ -41,7 +47,11 @@ section{
   display: inline;
 
 }
+footer{
+  color: white;
+  background-color: Black;
 
+}
 /*HEADER ALEXIS*/
 
 .imgtop {
@@ -77,41 +87,85 @@ section{
 }
 
 
+
 /*SECTION 1 ALEXIS*/
 
 /*SECTION 2 ALEXIS*/
 
 /*SECTION 3 FRANK*/
-.blocb{
-
+.blobtxt{
   width: 50%;
   right: auto;
+  align: left;
 
-
+}
+.blocb{
+  vertical-align: inherit;
+  width: 52%;
+  height: 20%;
+  align: right;
 }
 .imgb{
 
 }
 .emotion{
-  width: 250px;
+  width: 48%;
   height: auto;
-  bor der: 0px;
-  margin: 0px;
 
 }
 .emotion:hover{
   opacity: 0.7;
 }
 .blocEmo{
-  /*background-color: green;*/
+  background-color: red;
+  width: 100%;
+  height: 50%;
   display: flex;
 }
 /*SECTION 4 FRANK*/
-.test {border: 1px solid black;}
-.imgbot{
-  background-image: image(img/imgbot.jpg);
-  background-size: cover;
-
+.reservez{
+  position: absolute;
+  display: flex;
 }
-
+.titreb h3 {
+  font-size: 5vw;
+  position: absolute;
+  top: 5%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  line-height: 100%;
+}
+.titreb h2{
+  color: black;
+  font-size: 2vw;
+  position: absolute;
+  top: 15%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  line-height: 100%;
+}
+form{
+  width: 250px;
+  position: absolute;
+  top: 20%;
+  left: 60%;}
+.form{
+    margin: 5%;
+    width: 130%;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.formb{
+  width: 10%%;
+  height: 10%;
+  position: absolute;
+  top: 107%;
+  left: 40%;
+  background-color: black;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 80%;
+}
 /*FOOTER FRANK*/
