@@ -68,7 +68,7 @@ label{
 }
 .container {
   position: relative;
-  background-color: orange;
+  vertical-align: bottom;
 
 }
 .centrer h1 {
@@ -110,28 +110,28 @@ button:active{
     z-index: 2;
     width: 3.4vw;
 }
+a{
+  text-decoration:none;
+  color: black;
+}
 /*SECTION 1 ALEXIS*/
 #section1{
-  margin: 0px;
+  margin: -5px 0px 0px 0px;
   display: flex;
   width: 100%;
 }
 .imgarticle1{
   vertical-align: bottom;
-
   width: 50%;
-  background-color: blue;
 }
 .imgarticle1 img{
   width: 100%;
   height:100%;
-
 }
 .textarticle1{
   margin-top: -2%;
   float: left;
   width: 50%;
-  background-color: green;
 }
 /*SECTION 2 ALEXIS*/
 #section2{
@@ -198,10 +198,10 @@ button:active{
   display: flex;
 }
 /*SECTION 4 FRANK*/
-.reservez{
+#reservez{
   position: absolute;
   display: flex;
-}
+}.
 .titreb h3 {
   font-size: 5vw;
   position: absolute;
