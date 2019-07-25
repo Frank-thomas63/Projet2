@@ -64,7 +64,6 @@ footer{
 }
 .container {
   position: relative;
-  background-color: orange;
 
 }
 .centrer h1 {
@@ -108,15 +107,13 @@ button:active{
 }
 /*SECTION 1 ALEXIS*/
 #section1{
-  margin: 0px;
+  margin: -5px;
   display: flex;
   width: 100%;
 }
 .imgarticle1{
   vertical-align: bottom;
-
   width: 50%;
-  background-color: blue;
 }
 .imgarticle1 img{
   width: 100%;
@@ -127,7 +124,6 @@ button:active{
   margin-top: -2%;
   float: left;
   width: 50%;
-  background-color: green;
 }
 /*SECTION 2 ALEXIS*/
 #section2{
@@ -146,7 +142,6 @@ button:active{
 .textarticle2{
   float: right;
   width: 50%;
-  background-color: purple;
 }
 .perf1{
   border-bottom: solid 2px;
