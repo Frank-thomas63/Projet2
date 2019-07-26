@@ -37,7 +37,8 @@ h5{
 }
 h6{
   font-family: 'Playfair Display', serif;
-  font-size: 15px;
+  font-size: 25px;
+
 }
 article{
   width: 50%;
@@ -81,7 +82,7 @@ footer{
   width: 80%;
   line-height: 100%;
 }
-button{
+.bouton1{
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
     width: 19vw;
@@ -94,7 +95,7 @@ button{
     transition: 0.2s;
     padding-left: 3%;
 }
-button:active{
+.bouton1:active{
      color:white;
      background: linear-gradient( rgb(255, 255, 255), rgb(226, 226, 226));
 }
@@ -189,58 +190,82 @@ button:active{
   display: flex;
 }
 /*SECTION 4 FRANK*/
+#titreessai2{
+  padding-left: 40px;
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 30px;
+}
+#titreessai{
+  padding-left: 40px;
+  font-size: 30px;
+}
+.backbot{
+  width: 100%;
+  background-image: image(img/imgbot.jpg);
+  background-repeat:no-repeat;
+  background-position:right bottom;
+}
 .reservez{
-  position: absolute;
-  display: flex;
+  position: relative;
+  width: 100%;
+  display: list-item;
+  background-image: url(img/imgbot.jpg);
+  background-repeat:no-repeat;
+  height: 800px;
 }
-.titreb h3 {
-  font-size: 5vw;
-  position: absolute;
-  top: 5%;
-  left: 44%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  line-height: 100%;
-}
-.titreb h2{
-  color: black;
-  font-size: 2vw;
-  position: absolute;
-  top: 15%;
-  left: 44%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  line-height: 100%;
+.titreb{
+  width: 100%;
+  height: 10%;
+
 }
 form{
-  width: 30 0px;
   position: absolute;
-  top: 20%;
-  left: 60%;
+  width: 40%;
+  top:20%;
+  left :60%;
+
 }
 .form{
     margin: 3%;
-    width: 90%;
-    height: 30px;
+    width: 70%;
+    height: 40px;
     font-family: 'Lato', sans-serif;
+    border: 1px solid white;
+
 }
 label{
   font-family: 'Lato', sans-serif;
   font-size: 10px;
-  width: 290px;
+
+
 }
 .formb{
-  width: 10%%;
-  height: 10%;
-  position: absolute;
-  top: 107%;
-  left: 40%;
+  margin: 0px 150px 0px 150px;
+  text-align: center;
+  height: 6%;
   background-color: black;
   color: white;
   font-family: 'Playfair Display', serif;
-  font-size: 80%;
+  font-size: 100%;
 }
 /*FOOTER FRANK*/
 .footer{
   color: white;
+  width: 50%;
+  position: relative;
+  display: flex;
+  font-size: 20px;
+}
+li{
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+
+}
+.footerlien{
+  width: 50%;
+}
+.social{
+  position: absolute;
+  
 }
