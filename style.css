@@ -31,7 +31,7 @@ h4{
 }
 h5{
   font-family: 'Playfair Display', serif;
-  font-size: 10px;
+  font-size: 20px;
   margin-top: -50px;
   font-weight : normal;
 }
@@ -52,6 +52,10 @@ footer{
   position: absolute;
   background-color: Black;
   display: inline;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 /*HEADER ALEXIS*/
 .imgtop {
@@ -108,13 +112,14 @@ footer{
 }
 /*SECTION 1 ALEXIS*/
 #section1{
-  margin: -5px;
+  margin: -5px 0px -26px 0px;
   display: flex;
   width: 100%;
 }
 .imgarticle1{
   vertical-align: bottom;
   width: 50%;
+  height: 20%;
 }
 .imgarticle1 img{
   width: 100%;
@@ -126,15 +131,21 @@ footer{
   float: left;
   width: 50%;
 }
+#section1 article{
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 /*SECTION 2 ALEXIS*/
 #section2{
   display: flex;
   height: 40%;
   width: 100%;
+  margin: -26px 0px -30px 0px;
 }
 .imgarticle2{
   float: left;
   width: 50%;
+  height: 20%;
 }
 .imgarticle2 img{
   vertical-align: bottom;
@@ -146,21 +157,28 @@ footer{
 }
 .perf1{
   border-bottom: solid 2px;
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
 }
 .perf2{
   border-bottom: solid 2px;
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 .perf3{
   border-bottom: solid 2px;
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 .perf4{
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 .perfos2{
-  height: 20%;
+  height: 50%;
+  width: 100%;
+  margin: -40px 0px 40px 0px;
 }
 /*SECTION 3 FRANK*/
 .blobtxt{
@@ -206,7 +224,7 @@ footer{
   background-repeat:no-repeat;
   background-position:right bottom;
 }
-.reservez{
+#reservez{
   position: relative;
   width: 100%;
   display: list-item;
@@ -224,7 +242,6 @@ form{
   width: 40%;
   top:20%;
   left :60%;
-
 }
 .form{
     margin: 3%;
@@ -232,7 +249,17 @@ form{
     height: 40px;
     font-family: 'Lato', sans-serif;
     border: 1px solid white;
-
+    color: Black;
+}
+.form23{
+  margin: 3%;
+  width: 70%;
+  height: 40px;
+  font-family: 'Playfair display', sans-serif;
+  border: 0px solid white;
+  background-color: black;
+  font-size: 30px;
+  color: white;
 }
 label{
   font-family: 'Lato', sans-serif;
