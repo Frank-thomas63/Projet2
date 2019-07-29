@@ -270,6 +270,7 @@ li{
 }
 .social{
   position: absolute;
+<<<<<<< HEAD
   right: 10px;
   background-color: red;
   height: 50px;
@@ -281,4 +282,7 @@ li{
 
 	background-size: 800px;
 	}
+=======
+
+>>>>>>> 6482bae7462a2f0c9b51c5a4b292641a80e792ab
 }
