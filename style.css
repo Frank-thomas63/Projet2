@@ -52,10 +52,7 @@ a{
     text-decoration: none;
     color: white;
 }
-a{
-  text-decoration: none;
-  color: black;
-}
+
 /*HEADER ALEXIS*/
 .imgtop {
   vertical-align: bottom;
@@ -85,7 +82,12 @@ a{
   width: 80%;
   line-height: 100%;
 }
+.bouton1 a{
+  text-decoration: none;
+  color: black;
+}
 .bouton1{
+
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
     width: 19vw;
@@ -291,7 +293,7 @@ li{
 .social{
   position: absolute;
   right: 10px;
-  background-color: red;
+
   height: 50px;
   width: 25%;
 
