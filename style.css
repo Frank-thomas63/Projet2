@@ -231,6 +231,8 @@ a{
   background-image: url(img/imgbot.jpg);
   background-repeat:no-repeat;
   height: 800px;
+  background-size: auto;
+
 }
 .titreb{
   width: 100%;
@@ -291,8 +293,23 @@ li{
 }
 .footerlien{
   width: 50%;
+
 }
 .social{
   position: absolute;
+<<<<<<< HEAD
+  right: 10px;
+  background-color: red;
+  height: 50px;
+  width: 100%;
+}
 
+@media (max-width: 800px) {
+	.reservez {
+
+	background-size: 800px;
+	}
+=======
+
+>>>>>>> 6482bae7462a2f0c9b51c5a4b292641a80e792ab
 }
