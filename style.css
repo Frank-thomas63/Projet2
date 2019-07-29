@@ -1,6 +1,7 @@
 body{
   width: 100%;
   margin:auto;
+  position: relative;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -47,11 +48,9 @@ article{
 section{
   display: inline;
 }
-footer{
-  width: 100%;
-  position: absolute;
-  background-color: Black;
-  display: inline;
+a{
+    text-decoration: none;
+    color: white;
 }
 /*HEADER ALEXIS*/
 .imgtop {
@@ -202,31 +201,27 @@ footer{
 }
 .backbot{
   width: 100%;
-  background-image: image(img/imgbot.jpg);
   background-repeat:no-repeat;
-  background-position:right bottom;
 }
 .reservez{
   position: relative;
   width: 100%;
+  height: 800px;
   display: list-item;
   background-image: url(img/imgbot.jpg);
   background-repeat:no-repeat;
-  height: 800px;
   background-size: auto;
 
 }
 .titreb{
   width: 100%;
   height: 10%;
-
 }
 form{
   position: absolute;
   width: 40%;
   top:20%;
   left :60%;
-
 }
 .form{
     margin: 3%;
@@ -234,13 +229,10 @@ form{
     height: 40px;
     font-family: 'Lato', sans-serif;
     border: 1px solid white;
-
 }
 label{
   font-family: 'Lato', sans-serif;
   font-size: 10px;
-
-
 }
 .formb{
   margin: 0px 150px 0px 150px;
@@ -252,12 +244,22 @@ label{
   font-size: 100%;
 }
 /*FOOTER FRANK*/
+footer{
+  width: 100%;
+  background-color: Black;
+  
+  bottom: 0;
+
+}
 .footer{
   color: white;
   width: 50%;
-  position: relative;
   display: flex;
   font-size: 20px;
+}
+ul{
+
+
 }
 li{
   list-style: none;
@@ -270,19 +272,15 @@ li{
 }
 .social{
   position: absolute;
-<<<<<<< HEAD
   right: 10px;
   background-color: red;
   height: 50px;
-  width: 100%;
+  width: 25%;
+
 }
 
 @media (max-width: 800px) {
 	.reservez {
-
 	background-size: 800px;
 	}
-=======
-
->>>>>>> 6482bae7462a2f0c9b51c5a4b292641a80e792ab
 }
