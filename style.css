@@ -250,6 +250,16 @@ form{
     font-family: 'Lato', sans-serif;
     border: 1px solid white;
 }
+.form23{
+  margin: 3%;
+  width: 70%;
+  height: 40px;
+  font-family: 'Playfair display', sans-serif;
+  border: 0px solid white;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+}
 label{
   font-family: 'Lato', sans-serif;
   font-size: 10px;
@@ -264,6 +274,9 @@ label{
   font-size: 100%;
 }
 /*FOOTER FRANK*/
+.ulh6{
+  margin-bottom: 7%;
+}
 footer{
   width: 100%;
   background-color: Black;
@@ -298,9 +311,15 @@ li{
   width: 25%;
 
 }
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    section{
+    flex-direction: column-reverse;
 
-@media (max-width: 800px) {
-	.reservez {
+  }
+ footer{
+   flex-direction: column;
+ }
+	#reservez {
 	background-size: 800px;
 	}
 }
