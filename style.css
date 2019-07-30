@@ -325,10 +325,11 @@ li{
     cursor: pointer;
     transition: 0.2s;
     padding-left: 6%;
+    padding-top: -4%;
   }
   .logovolant{
     position: absolute;
-    bottom: 1.5%;
+    bottom: 1%;
     left: 10%;
     z-index: 2;
     width: 8vw;
@@ -353,8 +354,11 @@ li{
     height: 100%;
   }
   #section2 article{
-    margin-top: 5%;
-    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
   }
   .perfos2{
     margin: 0px 0px 40px 0px;
@@ -369,6 +373,10 @@ li{
     width: 100%;
     height: 100%;
   }
+  .blocEmo article{
+    margin-top: 17%;
+    margin-bottom: 17%;
+  }
   .blocb{
     width: 100%;
   }
@@ -376,4 +384,10 @@ li{
   #reservez {
 	background-size: 800px;
 	}
+}
+
+@media (max-width: 400px){
+  .perfos2 p{
+    width: 80%;
+  }
 }
