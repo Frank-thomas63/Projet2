@@ -306,10 +306,7 @@ li{
 .social{
   position: absolute;
   right: 10px;
-<<<<<<< HEAD
 
-=======
->>>>>>> 0ba9ddc4ca97f6c2c191ec3e1aebd9949347fbf2
   height: 50px;
   width: 25%;
 
@@ -318,14 +315,7 @@ li{
     section{
     flex-direction: column-reverse;
 
-<<<<<<< HEAD
-  }
- footer{
-   flex-direction: column;
- }
-=======
 @media (max-width: 800px) {
->>>>>>> 0ba9ddc4ca97f6c2c191ec3e1aebd9949347fbf2
 	#reservez {
 	background-size: 800px;
 	}
