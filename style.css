@@ -52,6 +52,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
 /*HEADER ALEXIS*/
 .imgtop {
   vertical-align: bottom;
@@ -81,7 +82,12 @@ a{
   width: 80%;
   line-height: 100%;
 }
+.bouton1 a{
+  text-decoration: none;
+  color: black;
+}
 .bouton1{
+
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
     width: 19vw;
@@ -300,10 +306,14 @@ li{
 .social{
   position: absolute;
   right: 10px;
+
   height: 50px;
   width: 25%;
 
 }
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    section{
+    flex-direction: column-reverse;
 
 @media (max-width: 800px) {
 	#reservez {
