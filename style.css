@@ -52,7 +52,6 @@ a{
     text-decoration: none;
     color: white;
 }
-
 /*HEADER ALEXIS*/
 .imgtop {
   vertical-align: bottom;
@@ -209,13 +208,13 @@ a{
   display: flex;
 }
 /*SECTION 4 FRANK*/
-#titreessai2{
+.titreessai2{
   padding-left: 40px;
   font-size: 60px;
   margin: 0px;
   padding-top: 30px;
 }
-#titreessai{
+.titreessai{
   padding-left: 40px;
   font-size: 30px;
 }
@@ -231,7 +230,9 @@ a{
   background-image: url(img/imgbot.jpg);
   background-repeat:no-repeat;
   background-size: auto;
-
+}
+.indicates-required{
+  margin-left: 13px;
 }
 .titreb{
   width: 100%;
@@ -306,7 +307,6 @@ li{
 .social{
   position: absolute;
   right: 10px;
-
   height: 50px;
   width: 25%;
 
@@ -382,8 +382,58 @@ li{
   }
   /*SECTION 4 FRANK*/
   #reservez {
-	background-size: 800px;
-	}
+    height: 408px;
+    background-size: 170%;
+     }
+  form{
+    position: absolute;
+    width: 100%;
+    top:25%;
+    height: 95%;
+    left: 2%;
+  }
+  .form{
+    margin: 1%;
+    width: 93%;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid white;
+  }
+  .mc-field-group{
+    height: 80%;
+    opacity: 0.5;
+  }
+  .form23{
+    width:88%;
+    text-align: center;
+    height: 44px;
+    font-family: 'Playfair display', sans-serif;
+    border: 0px solid white;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+  }
+  .titreessai2{
+    font-size: 25px;
+  }
+  .titreessai{
+    font-size: 23px;
+  }
+  .indicates-required{
+    color: white;
+  }
+  /*section footer*/
+  footer{
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+  }
+  .footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 400px){
