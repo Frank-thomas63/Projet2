@@ -281,13 +281,12 @@ label{
 footer{
   width: 100%;
   background-color: Black;
-
   bottom: 0;
-
 }
 .footer{
+
   color: white;
-  width: 50%;
+  width: 90%;
   display: flex;
   font-size: 20px;
 }
@@ -301,15 +300,13 @@ li{
 
 }
 .footerlien{
-  width: 50%;
-
+  width: 25%;
 }
 .social{
-  position: absolute;
-  right: 10px;
-  height: 50px;
-  width: 25%;
-
+  display: inline;
+  right: 70px;
+  margin-left: 25%;
+  height: 50%;
 }
 
 @media (max-width: 800px) {
@@ -424,20 +421,32 @@ li{
   }
   /*section footer*/
   footer{
-    width: 100%;
-    background-color: black;
-    bottom: 0;
+      width: 100%;
+      background-color: Black;
+      bottom: 0;
   }
   .footer{
-    color: white;
-    width: 100%;
-    display: flex;
-    font-size: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: auto;
+      top:50px;
+      bottom: 0px;
+      color: white;
+      width: 80%;
+      font-size: 20px;
+  }
+  .social{
+    width: 70%;
+    text-align: center;
+  }
+  .footerlien{
+    width: 50%;
+  }
+  .footerlien2{
+    width: 50%;
   }
 }
-
 @media (max-width: 400px){
   .perfos2 p{
-    width: 80%;
-  }
+    width: 70%;
 }
