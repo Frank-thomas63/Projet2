@@ -395,7 +395,10 @@ li{
          border: 1px solid white;
      }
      .mc-field-group{
-       height: 80%;
+       height: 75%;
+       
+       width: 96%;
+      margin-left:  2%;
        opacity: 0.5;
      }
      .form23{
