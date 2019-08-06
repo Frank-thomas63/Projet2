@@ -81,35 +81,31 @@ a{
   width: 80%;
   line-height: 100%;
 }
-.bouton1 a{
-  text-decoration: none;
-  color: black;
-}
-.bouton1{
 
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5vw;
-    width: 19vw;
-    height: 6%;
-    position: absolute;
-    right: 20%;
-    left: 76%;
-    top: 93.6%;
-    cursor: pointer;
-    transition: 0.2s;
-    padding-left: 3%;
-}
-.bouton1:active{
-     color:white;
-     background: linear-gradient( rgb(255, 255, 255), rgb(226, 226, 226));
+.mybutton a{
+  color: black;
+  position: fixed;
+  bottom: 0;
+  right: 170px;
+  background-color: white;
+  height: 29px;
+  width: 227px;
+  font-size: 20px;
+  z-index: 20;
+  vertical-align: middle;
+  text-align: right;
+  font-family: 'Playfair Display', serif;
+  flex: auto;
+  padding: 9px;
+  cursor: pointer;
 }
 .logovolant{
-    position: absolute;
-    bottom: 0.7%;
-    left: 76.2%;
-    z-index: 2;
-    width: 3.4vw;
-}
+  width: 3.8vw;
+  top: 2px;
+  left: 7px;
+  position: absolute;
+  }
+
 /*SECTION 1 ALEXIS*/
 #section1{
   margin: -5px 0px -26px 0px;
@@ -223,6 +219,7 @@ a{
   background-repeat:no-repeat;
 }
 #reservez{
+  z-index: 21;
   position: relative;
   width: 100%;
   height: 800px;
@@ -243,6 +240,7 @@ form{
   width: 40%;
   top:20%;
   left :60%;
+
 }
 .form{
     margin: 3%;
@@ -281,7 +279,9 @@ label{
 footer{
   width: 100%;
   background-color: Black;
+
   bottom: 0;
+  z-index: 30;
 }
 .footer{
 
@@ -303,10 +303,12 @@ li{
   width: 25%;
 }
 .social{
+
   display: inline;
   right: 70px;
   margin-left: 25%;
-  height: 50%;
+  height: 100%;
+  width: 30%;
 }
 
 @media (max-width: 800px) {
@@ -382,51 +384,9 @@ li{
     height: 408px;
     background-size: 170%;
      }
-<<<<<<< HEAD
-     form{
-       position: absolute;
-       width: 100%;
-       top:25%;
-       height: 95%;
-       left: 2%;
-     }
-     .form{
-         margin: 1%;
-         width: 93%;
-         height: 30px;
-         font-family: 'Lato', sans-serif;
-         border: 1px solid white;
-     }
-     .mc-field-group{
-       height: 75%;
-       
-       width: 96%;
-      margin-left:  2%;
-       opacity: 0.5;
-     }
-     .form23{
 
-       width:88%;
-       text-align: center;
-       height: 44px;
-       font-family: 'Playfair display', sans-serif;
-       border: 0px solid white;
-       background-color: black;
-       font-size: 30px;
-       color: white;
-     }
-     .titreessai2{
-       font-size: 25px;
-     }
-     .titreessai{
-       font-size: 23px;
-     }
-     .indicates-required{
-       color: white;
-     }
-=======
   form{
-    position: absolute;
+
     width: 100%;
     top:25%;
     height: 95%;
@@ -438,8 +398,10 @@ li{
     height: 30px;
     font-family: 'Lato', sans-serif;
     border: 1px solid white;
+
   }
   .mc-field-group{
+
     height: 80%;
     opacity: 0.5;
   }
@@ -450,7 +412,7 @@ li{
     font-family: 'Playfair display', sans-serif;
     border: 0px solid white;
     background-color: black;
-    font-size: 30px;
+    font-size: 100%;
     color: white;
   }
   .titreessai2{
@@ -468,26 +430,32 @@ li{
       width: 100%;
       background-color: Black;
       bottom: 0;
+
   }
   .footer{
+
       flex-direction: row;
       flex-wrap: wrap;
       height: auto;
-      top:50px;
+
       bottom: 0px;
       color: white;
       width: 80%;
       font-size: 20px;
+
   }
   .social{
-    width: 70%;
-    text-align: center;
+    flex: auto;
+    width: 100%;
+
   }
   .footerlien{
-    width: 50%;
+    flex: auto;
+    width: 100%;
   }
   .footerlien2{
-    width: 50%;
+    flex: auto;
+    width: 100%;
   }
 }
 @media (max-width: 400px){
